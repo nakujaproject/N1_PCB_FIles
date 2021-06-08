@@ -1,0 +1,237 @@
+{
+  "uuid": "9c22b4f93e819e36414ecf5282017ca3",
+  "path": "Offline/Nakuja",
+  "name": "Nakuja",
+  "content": "N1 improvement",
+  "created_at": "2021-06-08 11:53:20",
+  "updated_at": "2021-06-08 21:56:42",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "4c3f92123d2abe3ea41c1d1cae471479",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8b25884700f40d3a59dc9e2a7005460": 1,
+        "d25af0d73ce6462aaaf69e2d0d3dfab8": 1,
+        "666c564568de416db9c66239b7c36106": 1,
+        "948b0d7afb18dac4f0e67db74a7f46da": 1,
+        "6fca990f5b967fc6eec7a73064ad92f7": 1,
+        "e04bc25700b64190bbe126a11eee89d0": 2,
+        "2b1981519cb64eea8e26a6812f79efe2": 1,
+        "1877013df6e9450a8812efd5801686b9": 1,
+        "ed6529cfcfa741029bdfb3bc56796158": 1,
+        "a3c0944574fc44399b15341d2da7d4b2": 1,
+        "43bf2097a7c04c7bbae03c17f290bcb1": 1,
+        "ed4c9bf5a64142209812546a7749fdba": 1,
+        "b8e31e4a066649d9968b98f8017832dd": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "TIP122_C458982",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C458982",
+            "BOM_Manufacturer": "Slkor(SLKORMICRO Elec.)",
+            "BOM_Manufacturer Part": "TIP122",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "2b1981519cb64eea8e26a6812f79efe2"
+          }
+        ],
+        [
+          "330nF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "0.33uF 50V 5*11",
+            "BOM_Supplier Part": "C45097",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3744bcbe1f464b01ae180f32d7d4b0c4",
+            "uuid": "6fca990f5b967fc6eec7a73064ad92f7"
+          }
+        ],
+        [
+          "SERVO",
+          1,
+          "SERVO 3PIN",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "ba7cea6addb14ddbb3fa07b41b200ae7",
+            "uuid": "43bf2097a7c04c7bbae03c17f290bcb1"
+          }
+        ],
+        [
+          "Buzzer",
+          1,
+          "BUZZER",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "bec89526848548d8af8507bfb3bf806a",
+            "uuid": "666c564568de416db9c66239b7c36106"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "CAP-TH_BD5.0-P2.00-D0.8-FD",
+          "C1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "0.1UF 50V",
+            "BOM_Supplier Part": "C28061",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "3744bcbe1f464b01ae180f32d7d4b0c4",
+            "uuid": "948b0d7afb18dac4f0e67db74a7f46da"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-TH_BD1.7-L3.5-P7.50-D0.5",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C433502",
+            "BOM_Manufacturer": "TyoHM",
+            "BOM_Manufacturer Part": "RN 1/8W 10K F T/B A1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b9ec78209330420a90157d1c3f74bd79",
+            "uuid": "1877013df6e9450a8812efd5801686b9"
+          }
+        ],
+        [
+          "L7805CV-DG",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L7805CV-DG",
+            "BOM_Supplier Part": "C3795",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "a3c0944574fc44399b15341d2da7d4b2"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "HDR-F-2.54_1X8",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "76a028e0363649388f2a2e340a157455",
+            "uuid": "b8e31e4a066649d9968b98f8017832dd"
+          }
+        ],
+        [
+          "SD CARD MODULE",
+          1,
+          "SD CARD MODULE",
+          "J1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "GREATZT 1pcs Micro SD card mini TF card reader module",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Aliexpress",
+            "puuid": "df7fa3bfd6df4429823e108d9deea4b7",
+            "uuid": "d25af0d73ce6462aaaf69e2d0d3dfab8"
+          }
+        ],
+        [
+          "Screw Terminal",
+          2,
+          "H2-3.5-7.0X7.0MM",
+          "J3,J2",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "0dd9597ed4314d54b6bc5d12397ae3bd",
+            "uuid": "e04bc25700b64190bbe126a11eee89d0"
+          }
+        ],
+        [
+          "ESP32Devkit",
+          1,
+          "ESP32-DEVKITC2",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "96144e1a9d6c47aabc08db673d50f323",
+            "uuid": "ed4c9bf5a64142209812546a7749fdba"
+          }
+        ],
+        [
+          "1N4007 diode",
+          1,
+          "DIODE 1N40001",
+          "D1",
+          {
+            "BOM_Supplier": "elnino",
+            "BOM_Supplier Part": "C331633",
+            "BOM_Manufacturer": "GW",
+            "BOM_Manufacturer Part": "1N4007",
+            "puuid": "8e94ce1acdcc4b18961dc5eb933c6ab2",
+            "uuid": "ed6529cfcfa741029bdfb3bc56796158"
+          }
+        ],
+        [
+          "BMP180",
+          1,
+          "PIN_STRIP_4",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9acba7310c03439c948c70bc739bbb7c",
+            "uuid": "f8b25884700f40d3a59dc9e2a7005460"
+          }
+        ]
+      ],
+      "updateTime": 1623178602,
+      "createTime": 1623143347,
+      "histories": [],
+      "created_at": "2021-06-08 12:09:07",
+      "updated_at": "2021-06-08 21:56:42"
+    }
+  ],
+  "sort": [
+    "5d3b517e3dc683c21f10f1cc661cc4bd",
+    "4c3f92123d2abe3ea41c1d1cae471479"
+  ],
+  "title": "Nakuja",
+  "foldername": "Nakuja",
+  "schfilename": "Nakuja.json",
+  "schfilemtime": 1623178602085
+}
